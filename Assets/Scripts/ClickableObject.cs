@@ -1,16 +1,11 @@
 using UnityEngine;
 
-public class ClickableObject : MonoBehaviour
+public abstract class ClickableObject : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public abstract void OnClick();
 
-    // Update is called once per frame
-    void Update()
+    protected virtual void OnMouseDown() 
     {
-        
+        OnClick();
     }
 }

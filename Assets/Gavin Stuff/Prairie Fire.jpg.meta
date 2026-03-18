@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 173a55d2b993cc44aac2ac82b2ab33c7
+guid: 111df6422ce2fe042a7893e60ec83631
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3405123352501389600
-    second: Dorm Smaller Color Palette_0
+      213: 2420942661168936612
+    second: Prairie Fire_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dorm Smaller Color Palette_0
+      name: Prairie Fire_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1096
-        height: 619
+        width: 1080
+        height: 857
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e674cd1a529eb0d0800000000000000
-      internalID: -3405123352501389600
+      spriteID: 4a6309c068ae89120800000000000000
+      internalID: 2420942661168936612
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Dorm Smaller Color Palette_0: -3405123352501389600
+      Prairie Fire_0: 2420942661168936612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

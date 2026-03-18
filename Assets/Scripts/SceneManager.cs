@@ -1,16 +1,28 @@
+using System;
+using TMPro;
 using UnityEngine;
 
 public class SceneManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private Character[] characters;
+    [SerializeField] private GameObject textBox;
+    [SerializeField] private ClickableObject[] clickObjects;
+
+    [ContextMenu("Test EnterDialogue()")]
+    void EnterDialogue() 
     {
-        
+        textBox.SetActive(true);
+        if (characters.Length == 1)
+        {
+            characters[0].gameObject.SetActive(true);
+        }
+        else { Debug.Log("Too many characters! (Not implemented yet)"); }
     }
 
-    // Update is called once per frame
-    void Update()
+    [ContextMenu("Test ExitDialogue()")]
+    void ExitDialogue() 
     {
-        
+        textBox.SetActive(false);
+        characters[0].gameObject.SetActive(false);
     }
 }

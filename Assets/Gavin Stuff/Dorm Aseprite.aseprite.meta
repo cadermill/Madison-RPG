@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 63cb18aec0b8d8d4db83dd1ac21c1860
+guid: 11f916a7c7d54a04cb471262785bfc71
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,7 +127,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Dorm Smaller Color Palette
+  - name: Dorm Aseprite
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1096
-      height: 619
-    spriteID: 5db17bfae2d794e458bc8e171848fc1b
+      width: 1920
+      height: 1080
+    spriteID: df51ddddbae02ff4497373f9269c40ee
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 3868585582
+      value0: 4274929813
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Dorm Smaller Color Palette
+    name: Dorm Aseprite
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Dorm Smaller Color Palette
+    - name: Dorm Aseprite
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
-        width: 1096
-        height: 619
-      spriteId: 5db17bfae2d794e458bc8e171848fc1b
+        width: 1920
+        height: 1080
+      spriteId: df51ddddbae02ff4497373f9269c40ee
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -181,5 +181,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 1096, y: 619}
-  previousTextureSize: {x: 2048, y: 1024}
+  canvasSize: {x: 1920, y: 1080}
+  previousTextureSize: {x: 2048, y: 2048}
