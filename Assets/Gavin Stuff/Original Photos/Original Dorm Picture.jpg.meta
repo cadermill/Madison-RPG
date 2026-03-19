@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 744fd0c8072a80f4581d5b7e47f28e2b
+guid: 55385eab2fd21fe43a3ec4fa52318d45
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2662609112702198835
-    second: Madison RPG Map_0
+      213: -8628368681172413583
+    second: Original Dorm Picture_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Madison RPG Map_0
+      name: Original Dorm Picture_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 1096
+        height: 619
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcbdaad7e138c0bd0800000000000000
-      internalID: -2662609112702198835
+      spriteID: 173dc974660e14880800000000000000
+      internalID: -8628368681172413583
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Madison RPG Map_0: -2662609112702198835
+      Original Dorm Picture_0: -8628368681172413583
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

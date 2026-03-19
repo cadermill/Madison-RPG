@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 111df6422ce2fe042a7893e60ec83631
+guid: f725c62dce7889f448730a86cf634829
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2420942661168936612
-    second: Prairie Fire_0
+      213: -3822104836924682087
+    second: Cookie Asset_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Prairie Fire_0
+      name: Cookie Asset_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1080
-        height: 857
+        x: 27
+        y: 39
+        width: 75
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4a6309c068ae89120800000000000000
-      internalID: 2420942661168936612
+      spriteID: 9905dc4b6e725fac0800000000000000
+      internalID: -3822104836924682087
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Prairie Fire_0: 2420942661168936612
+      Cookie Asset_0: -3822104836924682087
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
