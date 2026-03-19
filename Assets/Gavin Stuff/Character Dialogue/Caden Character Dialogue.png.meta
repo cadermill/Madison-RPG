@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a745dcf05c4db574eac4d45c783df9a1
+guid: bace9bdf16f90924eb5e3d014667e1b9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5659980711465311654
-    second: Peets-Coffee-Logo-Vector.svg-_0
+      213: -4159152184872383438
+    second: Caden Character Dialogue_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Peets-Coffee-Logo-Vector.svg-_0
+      name: Caden Character Dialogue_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 39
-        width: 66
-        height: 51
+        x: 38
+        y: 0
+        width: 68
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6add37e187a4c8e40800000000000000
-      internalID: 5659980711465311654
+      spriteID: 23c44edbf19b746c0800000000000000
+      internalID: -4159152184872383438
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Peets-Coffee-Logo-Vector.svg-_0: 5659980711465311654
+      Caden Character Dialogue_0: -4159152184872383438
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

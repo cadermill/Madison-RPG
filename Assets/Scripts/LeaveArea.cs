@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class LeaveArea : ClickableObject
+public class LeaveArea : MonoBehaviour, IClickableObject
 {
-    public override void OnClick()
+    public void OnClick()
     {
         Debug.Log("Object Clicked!");
     }

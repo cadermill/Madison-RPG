@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 363f4a13ba0a8034d842ed408dd9c5ea
+guid: 8086660bfefbbd640add2d9842b8337a
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,7 +127,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Prairie Fire aseprite
+  - name: Dorm Dialogue Example
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -139,7 +139,7 @@ ScriptedImporter:
       y: 4
       width: 1920
       height: 1080
-    spriteID: dcaaef5c60ba42a4c941107cb0859c7d
+    spriteID: d3e66e30414971b4581a228fc8a4d075
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,17 +153,17 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 296079701
+      value0: 2278200202
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Prairie Fire aseprite
+    name: Dorm Dialogue Example
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Prairie Fire aseprite
+    - name: Dorm Dialogue Example
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -171,7 +171,7 @@ ScriptedImporter:
         y: 0
         width: 1920
         height: 1080
-      spriteId: dcaaef5c60ba42a4c941107cb0859c7d
+      spriteId: d3e66e30414971b4581a228fc8a4d075
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
