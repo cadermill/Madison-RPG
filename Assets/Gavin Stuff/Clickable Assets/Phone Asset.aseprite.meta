@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8086660bfefbbd640add2d9842b8337a
+guid: b4c0cbac390a12a41b3658ca918cb62d
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Dorm Dialogue Example
+  - name: Phone Asset
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.03448276}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1920
-      height: 1080
-    spriteID: d3e66e30414971b4581a228fc8a4d075
+      width: 44
+      height: 87
+    spriteID: 739ac85c15c5f504eb14e910b1fd2474
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -147,31 +147,31 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: -38, y: 1}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2278200202
+      value0: 1911921922
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Dorm Dialogue Example
+    name: Phone Asset
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Dorm Dialogue Example
+    - name: Phone Asset
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
-        width: 1920
-        height: 1080
-      spriteId: d3e66e30414971b4581a228fc8a4d075
+        width: 128
+        height: 93
+      spriteId: 739ac85c15c5f504eb14e910b1fd2474
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -181,5 +181,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 1920, y: 1080}
-  previousTextureSize: {x: 2048, y: 2048}
+  canvasSize: {x: 128, y: 93}
+  previousTextureSize: {x: 64, y: 128}
