@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f2540b4c059b3ec41b9dacf3f76a147d
+guid: 1aa832aa5d7ec7f408c6ed10f5f84aeb
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,7 +127,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Science Hall Outside
+  - name: Outside Elevator
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -139,7 +139,7 @@ ScriptedImporter:
       y: 4
       width: 1920
       height: 1080
-    spriteID: b235d3807c255c841b1ae27c327aec0d
+    spriteID: 89f6b1969c27d86449262eac91a84da7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,17 +153,17 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 1721315156
+      value0: 229212899
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Science Hall Outside
+    name: Outside Elevator
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Science Hall Outside
+    - name: Outside Elevator
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -171,7 +171,7 @@ ScriptedImporter:
         y: 0
         width: 1920
         height: 1080
-      spriteId: b235d3807c255c841b1ae27c327aec0d
+      spriteId: 89f6b1969c27d86449262eac91a84da7
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
