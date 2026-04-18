@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6d9e03291473b284cba855c12b46d5fd
+guid: 405547f437106d4499294716ce221188
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3325402423895762761
-    second: ClickableObjectPlaceholder_0
+      213: -227797888954889429
+    second: Espresso Shot_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ClickableObjectPlaceholder_0
+      name: Espresso Shot_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 301
-        height: 301
+        x: 680
+        y: 1539
+        width: 1640
+        height: 925
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 947a783c2e3362e20800000000000000
-      internalID: 3325402423895762761
+      spriteID: b2b8244e603b6dcf0800000000000000
+      internalID: -227797888954889429
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ClickableObjectPlaceholder_0: 3325402423895762761
+      Espresso Shot_0: -227797888954889429
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

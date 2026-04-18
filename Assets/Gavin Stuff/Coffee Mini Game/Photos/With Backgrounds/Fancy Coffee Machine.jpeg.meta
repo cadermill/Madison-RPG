@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 3fb8fc9ee7d93c245b848aab9f06556e
+guid: c3acb101ff9508844ba90c0ed4c1af15
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7544776204479195756
-    second: CharacterPlaceholder_0
-  - first:
-      213: 8197650434137861266
-    second: CharacterPlaceholder_1
+      213: 5265275076507026318
+    second: Fancy Coffee Machine_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CharacterPlaceholder_0
+      name: Fancy Coffee Machine_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 395
-        height: 859
+        width: 1300
+        height: 1300
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c6a6dc9ebfd64b860800000000000000
-      internalID: 7544776204479195756
+      spriteID: e834be319c3021940800000000000000
+      internalID: 5265275076507026318
       vertices: []
       indices: 
       edges: []
@@ -128,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: f538a5675e3aa1441bd1bfae72ff19f7
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -136,11 +133,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":395.0,"y":859.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      CharacterPlaceholder_0: 7544776204479195756
+      Fancy Coffee Machine_0: 5265275076507026318
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

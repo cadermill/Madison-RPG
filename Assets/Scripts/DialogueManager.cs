@@ -34,7 +34,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)) 
         {
-            canvasManager.hideCharacters(); // hide character on next line
+            canvasManager.hideCharacter(); // hide character on next line
             // regular line to display next
             if (_inkStory.canContinue)
             {
@@ -72,7 +72,7 @@ public class DialogueManager : MonoBehaviour
         {
             string tag = _inkStory.currentTags[i];
             if (tag.Contains("background")) { canvasManager.changeBackground(tag.Split('_')[1]); }
-            else if (tag.Contains("character")) { canvasManager.displayCharacter(tag.Split('_')[1]); }
+            else if (tag.Contains("character")) { canvasManager.displayCharacter(tag.Split("character_")[1]); }
         }
     }
 

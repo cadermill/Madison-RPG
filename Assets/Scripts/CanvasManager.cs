@@ -1,10 +1,12 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class CanvasManager : MonoBehaviour
 {
     [SerializeField] private Canvas[] canvases;
-    [SerializeField] private Image[] characters;
+    [SerializeField] private Image character;
+    [SerializeField] private Sprite[] emotions;
 
     public void changeBackground(string canvasName) 
     {
@@ -24,17 +26,12 @@ public class CanvasManager : MonoBehaviour
 
     public void displayCharacter(string name) 
     {
-        for (int i = 0; i < characters.Length; i++) 
-        { 
-            if (characters[i].name == "Character_" + name) { characters[i].gameObject.SetActive(true); break; }
+        for (int i = 0; i < emotions.Length; i++)
+        {
+            if (emotions[i].name == name) { character.sprite = emotions[i]; }
         }
+        character.gameObject.SetActive(true);
     }
 
-    public void hideCharacters() 
-    {
-        for (int i = 0; i < characters.Length; i++) 
-        {
-            characters[i].gameObject.SetActive(false);
-        }
-    }
+    public void hideCharacter() { character.gameObject.SetActive(false); }
 }

@@ -5,11 +5,11 @@ VAR global_variable = 0
 == start ==
 This is a line of narrative.
 
-What's next? # character_placeholder
-*   Change a global variable
+What's next? # character_Jo_confused
+* Change a global variable
 -> variable_stitch
 
-*   Pass a tag
+* Pass a tag
 -> tag_stitch
 
 * Conditional lines
@@ -27,8 +27,7 @@ Global variable is now 1!
 -> END //use this to indicate when dialogue should close
 
 = tag_stitch
-# emotion_angry
-# character_placeholder
+# character_Jo_shocked
 Both these tags are attached to this line!
 -> END
 
