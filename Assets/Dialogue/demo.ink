@@ -1,11 +1,11 @@
 VAR global_variable = 0
 
--> starting_knot
+-> start
 
-== starting_knot ==
+== start ==
 This is a line of narrative.
 
-What's next?
+What's next? # character_placeholder
 *   Change a global variable
 -> variable_stitch
 
@@ -18,6 +18,9 @@ What's next?
 * Temporary variables
 -> temp_stitch
 
+* Change Background
+-> background_stitch
+
 = variable_stitch
 ~ global_variable = 1
 Global variable is now 1!
@@ -25,7 +28,8 @@ Global variable is now 1!
 
 = tag_stitch
 # emotion_angry
-Both these tags are attached to this line! # background_desk
+# character_placeholder
+Both these tags are attached to this line!
 -> END
 
 = conditional_stitch
@@ -44,4 +48,9 @@ Add to temp variable?
 ~ temp_variable--
 
 - The temporary variable is {temp_variable}! // the "-" can be used to continue narrative the same way regardless of which choice was chosen
+-> END
+
+= background_stitch
+# background_desk
+Welcome to the desk!
 -> END
