@@ -34,6 +34,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)) 
         {
+            canvasManager.hideCharacters(); // hide character on next line
             // regular line to display next
             if (_inkStory.canContinue)
             {
@@ -59,7 +60,7 @@ public class DialogueManager : MonoBehaviour
             // end of knot
             else 
             {
-                canvas.gameObject.SetActive(false);
+                canvas.gameObject.SetActive(false); 
                 dialogueText.text = "";
             }
         }
@@ -70,19 +71,9 @@ public class DialogueManager : MonoBehaviour
         for (int i = 0; i < _inkStory.currentTags.Count; ++i)
         {
             string tag = _inkStory.currentTags[i];
-            if (tag.Contains("background")) { changeBackground(tag.Split('_')[1]); }
-            else if (tag.Contains("character")) { displayCharacter(tag.Split('_')[1]); }
+            if (tag.Contains("background")) { canvasManager.changeBackground(tag.Split('_')[1]); }
+            else if (tag.Contains("character")) { canvasManager.displayCharacter(tag.Split('_')[1]); }
         }
-    }
-
-    private void displayCharacter(string charName) 
-    {
-        Debug.Log("DISPLAY CHARACTER: " + charName);
-    }
-
-    private void changeBackground(string newBackground) 
-    {
-        canvasManager.changeBackground(newBackground);
     }
 
     public void makeChoice(int idx)
