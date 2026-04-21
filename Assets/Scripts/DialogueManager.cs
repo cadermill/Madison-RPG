@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Ink.Runtime;
 using UnityEngine.SceneManagement;
+using System.Collections; // ← ADDED
 
 public class DialogueManager : MonoBehaviour
 {
@@ -10,6 +11,19 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Canvas canvas;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField] private Button[] choiceButtons;
+
+    // ── Typewriter fields ───────────────────────────────────────────
+    [Header("Typewriter Settings")]
+    [SerializeField] private float typingSpeed = 0.04f;
+
+    [Header("Typing Audio")]
+    [SerializeField] private AudioSource typingAudioSource;
+    [SerializeField] private AudioClip typingClip;
+
+    private bool isTyping = false;
+    private string fullText = "";
+    private Coroutine typingCoroutine;
+    // ────────────────────────────────────────────────────────────
 
     private bool choicesDisplayed = false;
     private CanvasManager canvasManager;
@@ -20,28 +34,39 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("AWAKE");
         DontDestroyOnLoad(gameObject);
         _inkStory = new Story(inkAsset.text);
+
+        //auto-create audio source───────────────
+        if (typingAudioSource == null)
+        {
+            typingAudioSource = gameObject.AddComponent<AudioSource>();
+            typingAudioSource.loop = true;
+            typingAudioSource.playOnAwake = false;
+        }
+        // ────────────────────────────────────────────────────────
+
         EnterDialogue();
     }
 
-    // find CanvasManager on each scene load
     void OnEnable() { SceneManager.sceneLoaded += OnSceneLoaded; }
-
     void OnSceneLoaded(Scene scene, LoadSceneMode mode) { canvasManager = FindFirstObjectByType<CanvasManager>(); }
-
     void OnDisable() { SceneManager.sceneLoaded -= OnSceneLoaded; }
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0)) 
+        if (Input.GetMouseButtonDown(0))
         {
-            canvasManager.hideCharacter(); // hide character on next line
-            // regular line to display next
+            // ──skip typewriter on click ───────────────────────────
+            if (isTyping) { SkipTypewriter(); return; }
+            // ───────────────────────────────────────────────────
+
+            canvasManager.hideCharacter();
+
             if (_inkStory.canContinue)
             {
-                dialogueText.text = _inkStory.Continue();
+                string line = _inkStory.Continue();
                 processTags();
+                StartTypewriter(line); //dialogueText.text = _inkStory.Continue();
             }
-            // choices to display next
             else if (_inkStory.currentChoices.Count > 0)
             {
                 if (!choicesDisplayed)
@@ -52,19 +77,55 @@ public class DialogueManager : MonoBehaviour
                         choiceButtons[i].gameObject.SetActive(true);
                         choiceButtons[i].GetComponentInChildren<TMP_Text>().text = choice.text;
                     }
-
                     choicesDisplayed = true;
                 }
                 processTags();
             }
-            // end of knot
-            else 
+            else
             {
-                canvas.gameObject.SetActive(false); 
+                canvas.gameObject.SetActive(false);
                 dialogueText.text = "";
             }
         }
     }
+
+    //Typewriter methods ──────────────────────────────────────────
+    private void StartTypewriter(string text)
+    {
+        fullText = text;
+        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+        typingCoroutine = StartCoroutine(TypewriterRoutine(text));
+    }
+
+    private IEnumerator TypewriterRoutine(string text)
+    {
+        isTyping = true;
+        dialogueText.text = "";
+
+        if (typingClip)
+        {
+            typingAudioSource.clip = typingClip;
+            typingAudioSource.Play();
+        }
+
+        foreach (char c in text)
+        {
+            dialogueText.text += c;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        if (typingAudioSource.isPlaying) typingAudioSource.Stop();
+        isTyping = false;
+    }
+
+    private void SkipTypewriter()
+    {
+        if (typingCoroutine != null) StopCoroutine(typingCoroutine);
+        dialogueText.text = fullText;
+        if (typingAudioSource.isPlaying) typingAudioSource.Stop();
+        isTyping = false;
+    }
+    // ────────────────────────────────────────────────────────────
 
     private void processTags()
     {
@@ -79,13 +140,11 @@ public class DialogueManager : MonoBehaviour
     public void makeChoice(int idx)
     {
         _inkStory.ChooseChoiceIndex(idx);
-
         for (int i = 0; i < choiceButtons.Length; ++i) { choiceButtons[i].gameObject.SetActive(false); }
-
-        if (_inkStory.canContinue) { _inkStory.Continue(); } // move past choice repeat
-        dialogueText.text = _inkStory.Continue();
+        if (_inkStory.canContinue) { _inkStory.Continue(); }
+        string line = _inkStory.Continue();
         processTags();
-
+        StartTypewriter(line); //dialogueText.text = _inkStory.Continue();
         choicesDisplayed = false;
     }
 
@@ -93,6 +152,7 @@ public class DialogueManager : MonoBehaviour
     {
         canvas.gameObject.SetActive(true);
         _inkStory.ChoosePathString(knot);
-        dialogueText.text = _inkStory.Continue();
+        string line = _inkStory.Continue();
+        StartTypewriter(line); //dialogueText.text = _inkStory.Continue();
     }
 }
