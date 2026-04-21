@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e0e72a0d308f5be4cadd0708de99fbae
+guid: 95200bed9f94a1f4997d5ae6c282be1e
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Barista Milk
+  - name: Normal Dialogue Textbox
     originalName: 
-    pivot: {x: 0.5086705, y: -0.11666667}
+    pivot: {x: 0.49920678, y: -0.012820514}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 173
-      height: 480
-    spriteID: 61f41bbb36bda784d841a6428121295c
+      width: 1891
+      height: 702
+    spriteID: 4417be618d4727442b4599fce4288294
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2395459245
+      value0: 206715643
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Barista Milk
+    name: Normal Dialogue Textbox
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Barista Milk
+    - name: Normal Dialogue Textbox
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 188
-        y: 56
-        width: 173
-        height: 480
-      spriteId: 61f41bbb36bda784d841a6428121295c
+        x: 16
+        y: 9
+        width: 1891
+        height: 702
+      spriteId: 4417be618d4727442b4599fce4288294
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -181,5 +181,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 552, y: 572}
-  previousTextureSize: {x: 256, y: 512}
+  canvasSize: {x: 1920, y: 1080}
+  previousTextureSize: {x: 2048, y: 1024}

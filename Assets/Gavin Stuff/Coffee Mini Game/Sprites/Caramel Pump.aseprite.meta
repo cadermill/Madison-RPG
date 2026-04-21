@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e0e72a0d308f5be4cadd0708de99fbae
+guid: 90750948e68ff90429f56b0f95296e04
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Barista Milk
+  - name: Caramel Pump
     originalName: 
-    pivot: {x: 0.5086705, y: -0.11666667}
+    pivot: {x: 0.35638297, y: -0.6196581}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 173
-      height: 480
-    spriteID: 61f41bbb36bda784d841a6428121295c
+      width: 188
+      height: 468
+    spriteID: 045219b42e5702a45853d5e931f9475a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -153,25 +153,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2395459245
+      value0: 3081561505
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Barista Milk
+    name: Caramel Pump
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Barista Milk
+    - name: Caramel Pump
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 188
-        y: 56
-        width: 173
-        height: 480
-      spriteId: 61f41bbb36bda784d841a6428121295c
+        x: 308
+        y: 290
+        width: 188
+        height: 468
+      spriteId: 045219b42e5702a45853d5e931f9475a
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -181,5 +181,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 552, y: 572}
+  canvasSize: {x: 750, y: 1000}
   previousTextureSize: {x: 256, y: 512}

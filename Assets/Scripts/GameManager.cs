@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour
     public float gameDuration = 60f;
 
     [Header("UI References")]
-    public Slider timerBar;
-    public Image timerFill;  // Assign: Slider -> Fill Area -> Fill
+    public Image timerBar1;        // Assign your first rectangle Image
+    public Image timerBar2;        // Assign your second rectangle Image
     public TextMeshProUGUI scoreText;
     public GameObject resultsPanel;
     public TextMeshProUGUI resultsText;
@@ -28,6 +28,20 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        // Set both images to use Filled image type so we can control fill amount
+        if (timerBar1)
+        {
+            timerBar1.type = Image.Type.Filled;
+            timerBar1.fillMethod = Image.FillMethod.Horizontal;
+            timerBar1.fillOrigin = (int)Image.OriginHorizontal.Left;
+        }
+        if (timerBar2)
+        {
+            timerBar2.type = Image.Type.Filled;
+            timerBar2.fillMethod = Image.FillMethod.Horizontal;
+            timerBar2.fillOrigin = (int)Image.OriginHorizontal.Left;
+        }
+
         StartGame();
     }
 
@@ -38,7 +52,6 @@ public class GameManager : MonoBehaviour
         gameActive = true;
         if (resultsPanel) resultsPanel.SetActive(false);
         UpdateScoreUI();
-
         ClientManager.Instance.PickNewClient();
     }
 
@@ -49,14 +62,21 @@ public class GameManager : MonoBehaviour
         timeRemaining -= Time.deltaTime;
         timeRemaining = Mathf.Max(0f, timeRemaining);
 
-        float t = timeRemaining / gameDuration;
+        float t = timeRemaining / gameDuration; // 1 = full time, 0 = no time
 
-        if (timerBar) timerBar.value = t;
-
-        if (timerFill) timerFill.color = Color.Lerp(Color.red, Color.green, t);
+        // Update fill amount and color for both bars
+        UpdateTimerBar(timerBar1, t);
+        UpdateTimerBar(timerBar2, t);
 
         if (timeRemaining <= 0f)
             EndGame();
+    }
+
+    private void UpdateTimerBar(Image bar, float t)
+    {
+        if (!bar) return;
+        bar.fillAmount = t;                              // Shrinks as time runs out
+        bar.color = Color.Lerp(Color.red, Color.green, t); // Green -> Red as time runs out
     }
 
     public void AddScore()

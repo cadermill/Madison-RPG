@@ -18,6 +18,9 @@ public class ClientClickHandler : MonoBehaviour
         // Score the point
         GameManager.Instance.AddScore();
 
+        // Play order complete sound
+        AudioManager.Instance?.PlayOrderComplete();
+
         // Pick a new client and generate a new order
         ClientManager.Instance.PickNewClient();
     }
