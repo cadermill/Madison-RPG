@@ -17,14 +17,13 @@ public class TriviaManager : MonoBehaviour
     public TMP_Text scoreText;
 
     [Header("--- RESULT UI ---")]
-    public GameObject gamePanel;       // parent object holding all game UI
-    public GameObject resultPanel;     // parent object holding result UI
-    public TMP_Text resultText;        // the big percentage text
+    public GameObject gamePanel;
+    public GameObject resultPanel;
+    public TMP_Text resultText;
 
     [Header("Settings")]
     public float timePerQuestion = 15f;
 
-    // private state
     private List<TriviaQuestion> shuffledQuestions;
     private int currentIndex = 0;
     private int score = 0;
@@ -63,7 +62,7 @@ public class TriviaManager : MonoBehaviour
             return;
         }
 
-        answerLocked = false;
+        answerLocked  = false;
         timeRemaining = timePerQuestion;
 
         var q = shuffledQuestions[currentIndex];
@@ -72,12 +71,14 @@ public class TriviaManager : MonoBehaviour
 
         for (int i = 0; i < answerButtons.Length; i++)
         {
-            answerButtonLabels[i].text = q.answers[i];
+            answerButtonLabels[i].text   = q.answers[i];
             answerButtons[i].interactable = true;
 
+            // Reset button colour
             var colors = answerButtons[i].colors;
-            colors.normalColor   = Color.white;
-            colors.disabledColor = Color.white * 0.85f;
+            colors.normalColor      = Color.white;
+            colors.highlightedColor = new Color(0.85f, 0.85f, 0.85f, 1f);
+            colors.disabledColor    = Color.white * 0.85f;
             answerButtons[i].colors = colors;
 
             int captured = i;
@@ -98,11 +99,13 @@ public class TriviaManager : MonoBehaviour
         {
             score++;
             HighlightButton(index, Color.green);
+            TriviaAudioManager.Instance?.PlayCorrect();
         }
         else
         {
             HighlightButton(index, Color.red);
             HighlightButton(q.correctAnswerIndex, Color.green);
+            TriviaAudioManager.Instance?.PlayWrong();
         }
 
         foreach (var btn in answerButtons)
@@ -119,6 +122,8 @@ public class TriviaManager : MonoBehaviour
 
         var q = shuffledQuestions[currentIndex];
         HighlightButton(q.correctAnswerIndex, Color.green);
+        TriviaAudioManager.Instance?.PlayWrong();
+
         foreach (var btn in answerButtons)
             btn.interactable = false;
 
@@ -140,10 +145,9 @@ public class TriviaManager : MonoBehaviour
         resultText.text = $"{Mathf.RoundToInt(pct)}%\n{score} / {shuffledQuestions.Count}";
     }
 
-    // Call this from your Play Again button
     public void PlayAgain()
     {
-        score = 0;
+        score        = 0;
         currentIndex = 0;
 
         resultPanel.SetActive(false);
