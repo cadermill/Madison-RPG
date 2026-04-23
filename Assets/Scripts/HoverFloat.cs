@@ -36,13 +36,21 @@ public class HoverFloat : MonoBehaviour
 
         isHovered = true;
         targetPosition = originalPosition + new Vector3(0f, floatAmount, 0f);
-        AudioManager.Instance?.PlayHover(); // add this line
+        AudioManager.Instance?.PlayHover();
     }
 
     void OnMouseExit()
     {
         isHovered = false;
         targetPosition = originalPosition;
+    }
+
+    void OnMouseDown()
+    {
+        if (onlyWhenOrderCorrect && !OrderManager.Instance.IsOrderCorrect()) return;
+        if (!GameManager.Instance.IsGameActive()) return;
+
+        AudioManager.Instance?.PlayClick();
     }
 
     // If order state changes while hovering (e.g. last ingredient added),
@@ -65,5 +73,4 @@ public class HoverFloat : MonoBehaviour
             ? originalPosition + new Vector3(0f, floatAmount, 0f)
             : originalPosition;
     }
-    
 }
