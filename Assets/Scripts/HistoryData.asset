@@ -20,66 +20,31 @@ MonoBehaviour:
     - France
     - Switzerland
     correctAnswerIndex: 2
-  - questionText: What is good
+  - questionText: What year did World War II end?
     answers:
-    - because
-    - and
-    - u
-    - I
-    correctAnswerIndex: 3
-  - questionText: What is good
+    - 1940
+    - 1945
+    - 1939
+    - 1950
+    correctAnswerIndex: 1
+  - questionText: What treaty ended World War I?
     answers:
-    - because
-    - and
-    - u
-    - I
-    correctAnswerIndex: 3
-  - questionText: What is good
+    - Treaty of Paris
+    - Treaty of Pizza
+    - Treaty of Versailles
+    - Terms and Conditions
+    correctAnswerIndex: 2
+  - questionText: Which civilization built Machu Picchu?
     answers:
-    - because
-    - and
-    - u
-    - I
+    - Aztec
+    - Mayan
+    - Indus
+    - Inca
     correctAnswerIndex: 3
-  - questionText: What is good
+  - questionText: Who was the first emperor of Rome?
     answers:
-    - because
-    - and
-    - u
-    - I
-    correctAnswerIndex: 3
-  - questionText: What is good
-    answers:
-    - because
-    - and
-    - u
-    - I
-    correctAnswerIndex: 3
-  - questionText: What is good
-    answers:
-    - because
-    - and
-    - u
-    - I
-    correctAnswerIndex: 3
-  - questionText: What is good
-    answers:
-    - because
-    - and
-    - u
-    - I
-    correctAnswerIndex: 3
-  - questionText: What is good
-    answers:
-    - because
-    - and
-    - u
-    - I
-    correctAnswerIndex: 3
-  - questionText: What is good
-    answers:
-    - because
-    - and
-    - u
-    - I
-    correctAnswerIndex: 3
+    - Augustus Caesar
+    - Caesar Salad
+    - Little Caesar
+    - Julius Caesar
+    correctAnswerIndex: 0
