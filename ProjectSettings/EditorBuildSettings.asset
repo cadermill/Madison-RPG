@@ -12,17 +12,29 @@ EditorBuildSettings:
     path: Assets/Scenes/Locations/MapSample.unity
     guid: 21a670a1a5c0fd54fba2913889deef02
   - enabled: 1
-    path: Assets/Scenes/Locations/Peets.unity
-    guid: 156fb23a74ec30c4fb605289e0c4b0bd
+    path: Assets/Scenes/Locations/Monday/Dorm_Monday.unity
+    guid: 8622591ea2a6a8743b16f7d2993a3526
   - enabled: 1
-    path: Assets/Scenes/Locations/Mosse.unity
-    guid: 59defd210db87ce41bf70b582b274e7d
+    path: Assets/Scenes/Locations/Monday/Bascom_Hill_Monday.unity
+    guid: c166df1d304a63f4e998e69ae7c0012c
   - enabled: 1
-    path: Assets/Scenes/Locations/Memorial_Union.unity
-    guid: 155ccdebaefc6a64ab0e131b18af6ba9
+    path: Assets/Scenes/Locations/Monday/College_Library_Monday.unity
+    guid: 1b3d79de940c1d944aec1a6be976a329
   - enabled: 1
-    path: Assets/Scenes/Locations/Science_Hall.unity
-    guid: b30988727991f5b42b0c913c76acfbca
+    path: Assets/Scenes/Locations/Monday/Map_Monday.unity
+    guid: 44b0ddbb28c66124ea1e8782f7b68027
+  - enabled: 1
+    path: Assets/Scenes/Locations/Monday/Memorial_Union_Monday.unity
+    guid: 54b5cf9c9435d0342885aad222cabb44
+  - enabled: 1
+    path: Assets/Scenes/Locations/Monday/Mosse_Monday.unity
+    guid: 4efec8be208644449b4feb2228acc2a5
+  - enabled: 1
+    path: Assets/Scenes/Locations/Monday/Science_Hall_Monday.unity
+    guid: 7eb52caee5365bb488bf06ff40b6461e
+  - enabled: 1
+    path: Assets/Scenes/Locations/Monday/Union_South_Monday.unity
+    guid: 3c40a8d86fb774841a1b688da0ef28d5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

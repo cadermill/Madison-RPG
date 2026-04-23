@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Canvas canvas;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField] private Button[] choiceButtons;
+    [SerializeField] private GameObject dialogueContainer; // TEMP
 
     // ── Typewriter fields ───────────────────────────────────────────
     [Header("Typewriter Settings")]
@@ -49,7 +50,7 @@ public class DialogueManager : MonoBehaviour
             if (isTyping) { SkipTypewriter(); return; }
             // ───────────────────────────────────────────────────
 
-            canvasManager.hideCharacter();
+            if (canvasManager != null) { canvasManager.hideCharacter(); }
 
             if (_inkStory.canContinue)
             {
@@ -142,6 +143,7 @@ public class DialogueManager : MonoBehaviour
     public void EnterDialogue(string knot = "start")
     {
         canvas.gameObject.SetActive(true);
+        dialogueContainer.gameObject.SetActive(true); // TEMP
         _inkStory.ChoosePathString(knot);
         string line = _inkStory.Continue();
         processTags();
@@ -151,6 +153,7 @@ public class DialogueManager : MonoBehaviour
     private void ExitDialogue() 
     {
         canvas.gameObject.SetActive(false);
+        dialogueContainer.gameObject.SetActive(false); // TEMP
         dialogueText.text = "";
         if ((int) _inkStory.variablesState["actions_taken"] >= 10) { DayOver(); }
     }

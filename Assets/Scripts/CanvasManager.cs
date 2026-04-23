@@ -10,6 +10,7 @@ public class CanvasManager : MonoBehaviour
 
     public void changeBackground(string canvasName) 
     {
+        hideBackgrounds();
         for (int i = 0; i < canvases.Length; i++) 
         {
             if (canvases[i].name == "Canvas_" + canvasName) { canvases[i].gameObject.SetActive(true); break; }
