@@ -1,0 +1,22 @@
+Adobe After Effects v26.2 Windows 64 render log for project “Madison RPG Dialogue.aep”
+
+Rendering started on 4/23/2026 at 2:20:34 AM
+
+  4/23/2026 2:20:34 AM: Starting composition “Excited Dialogue”.
+
+  Output To: C:\GitHub\Madison-RPG\Assets\Gavin Stuff\UI Interface\Dialogue\Dialogue Final\Excited Dialogue.mov    4/23/2026 2:20:40 AM: Finished composition “Excited Dialogue”.
+
+
+  4/23/2026 2:20:40 AM: Starting composition “Normal Dialogue”.
+
+  Output To: C:\GitHub\Madison-RPG\Assets\Gavin Stuff\UI Interface\Dialogue\Dialogue Final\Normal Dialogue.mov    4/23/2026 2:20:54 AM: Finished composition “Normal Dialogue”.
+
+
+  4/23/2026 2:20:54 AM: Starting composition “Thinking Dialogue”.
+
+  Output To: C:\GitHub\Madison-RPG\Assets\Gavin Stuff\UI Interface\Dialogue\Dialogue Final\Thinking Dialogue.mov    4/23/2026 2:21:02 AM: Finished composition “Thinking Dialogue”.
+
+
+  Total Time Elapsed: 28 Seconds
+Log closed on 4/23/2026 at 2:21:02 AM
+
