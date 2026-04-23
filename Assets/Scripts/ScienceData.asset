@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d0f9fca9a6d004eb65e43534d960e3, type: 3}
+  m_Name: ScienceData
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  questions:
+  - questionText: What is the powerhouse of the cell?
+    answers:
+    - Nucleus
+    - Mitochondria
+    - Ribosome
+    - Cytoplasm
+    correctAnswerIndex: 1
+  - questionText: 'What law states that energy cannot be created or destroyed? '
+    answers:
+    - Newton's First Law
+    - Newton's Second Law
+    - Law of Thermodynamics
+    - Boyle's Law
+    correctAnswerIndex: 2
+  - questionText: 'What is the chemical compound of salt? '
+    answers:
+    - H20
+    - NaCl
+    - O2
+    - CH 3CH 2OH.
+    correctAnswerIndex: 1
+  - questionText: Which of these is NOT a type of rock
+    answers:
+    - Igneous
+    - Sedimentary
+    - Metamorphic
+    - Sugar
+    correctAnswerIndex: 3
+  - questionText: What type of bond involves the sharing of electron pairs?
+    answers:
+    - Ionic
+    - Covalent
+    - Hydrogen
+    - Friendship
+    correctAnswerIndex: 1

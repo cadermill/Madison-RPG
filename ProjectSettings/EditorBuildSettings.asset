@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Locations/Mosse.unity
     guid: 59defd210db87ce41bf70b582b274e7d
   - enabled: 1
-    path: Assets/Scenes/Locations/Monday/Memorial_Union.unity
+    path: Assets/Scenes/Locations/Memorial_Union.unity
     guid: 155ccdebaefc6a64ab0e131b18af6ba9
   - enabled: 1
     path: Assets/Scenes/Locations/Science_Hall.unity

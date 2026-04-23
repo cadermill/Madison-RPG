@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d0f9fca9a6d004eb65e43534d960e3, type: 3}
+  m_Name: GeographyData
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  questions:
+  - questionText: What ocean is on the west coast of the United States?
+    answers:
+    - Atlantic
+    - Pacific
+    - Antarctic
+    - Artic
+    correctAnswerIndex: 1
+  - questionText: Which country has the largest population?
+    answers:
+    - USA
+    - China
+    - India
+    - Russia
+    correctAnswerIndex: 2
+  - questionText: Which of these is a river?
+    answers:
+    - Everest
+    - Kilimangaro
+    - Fuji
+    - Nile
+    correctAnswerIndex: 3
+  - questionText: Which country has the longest coastline in the world?
+    answers:
+    - Canada
+    - Australia
+    - Russia
+    - India
+    correctAnswerIndex: 0
+  - questionText: Which of these is the hottest desert?
+    answers:
+    - Gobi
+    - Sahara
+    - Kalahari
+    - Arabian
+    correctAnswerIndex: 1
