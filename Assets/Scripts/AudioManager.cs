@@ -13,6 +13,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip orderCompleteClip;
     public AudioClip hoverClip;
 
+    public AudioClip clickClip;
+
     void Awake()
     {
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
@@ -37,8 +39,14 @@ public class AudioManager : MonoBehaviour
     }
 
     public void PlayHover()
-{
-    if (hoverClip)
-        sfxSource.PlayOneShot(hoverClip);
-}
+    {
+        if (hoverClip)
+            sfxSource.PlayOneShot(hoverClip);
+    }
+
+    public void PlayClick()
+    {
+        if (clickClip)
+            sfxSource.PlayOneShot(clickClip);
+    }
 }

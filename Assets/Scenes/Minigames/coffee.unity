@@ -2446,6 +2446,7 @@ MonoBehaviour:
   backgroundMusic: {fileID: 8300000, guid: 29df2f5c224df534ebe1ca8e21b7780f, type: 3}
   orderCompleteClip: {fileID: 8300000, guid: 37d5e78a8e471fd4695e40fe724cfab4, type: 3}
   hoverClip: {fileID: 8300000, guid: 26f83fd3d67f5484fb17b974c68970f0, type: 3}
+  clickClip: {fileID: 8300000, guid: d76338157ffbfc7478dc362ab52d6276, type: 3}
 --- !u!82 &707995096
 AudioSource:
   m_ObjectHideFlags: 0
