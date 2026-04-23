@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: 5b1928037bd287642ad669a34b5f1026
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -684433970727111396
+    second: Zack Attack-Sheet_0
+  - first:
+      213: -3914184185475657724
+    second: Zack Attack-Sheet_1
+  - first:
+      213: -7522472439962975411
+    second: Zack Attack-Sheet_2
+  - first:
+      213: -7466007170096491223
+    second: Zack Attack-Sheet_3
+  - first:
+      213: 420122849174263791
+    second: Zack Attack-Sheet_4
+  - first:
+      213: 2249594088280494070
+    second: Zack Attack-Sheet_5
+  - first:
+      213: 5625938844620382477
+    second: Zack Attack-Sheet_6
+  - first:
+      213: -7859882173934018680
+    second: Zack Attack-Sheet_7
+  - first:
+      213: 5081708021841955366
+    second: Zack Attack-Sheet_8
+  - first:
+      213: -8818264399238451370
+    second: Zack Attack-Sheet_9
+  - first:
+      213: 126310302441642699
+    second: Zack Attack-Sheet_10
+  - first:
+      213: 7174578899795564480
+    second: Zack Attack-Sheet_11
+  - first:
+      213: 1527056489973665467
+    second: Zack Attack-Sheet_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: roommate_neutral
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2256
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15b99e0ee66086f0800000000000000
+      internalID: -684433970727111396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zack Attack-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2256
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4009547b8360ea9c0800000000000000
+      internalID: -3914184185475657724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roommate_confused
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2256
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43475feb2fca9790800000000000000
+      internalID: -7522472439962975411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roommate_angry
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 2256
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92511ef090a636890800000000000000
+      internalID: -7466007170096491223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roommate_sad
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1504
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe79e03618394d500800000000000000
+      internalID: 420122849174263791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roommate_shocked
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1506
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff07c887e9283f10800000000000000
+      internalID: 2249594088280494070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roommate_thinking
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1506
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d016ba95299531e40800000000000000
+      internalID: 5625938844620382477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zack Attack-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1504
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fdc366ec61ce290800000000000000
+      internalID: -7859882173934018680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roommate_happy
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 752
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a8426958ad58640800000000000000
+      internalID: 5081708021841955366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zack Attack-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 752
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f2be3004b3f9580800000000000000
+      internalID: -8818264399238451370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zack Attack-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 752
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca91840d8eb0c100800000000000000
+      internalID: 126310302441642699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zack Attack-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 752
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7d35f2f79319360800000000000000
+      internalID: 7174578899795564480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zack Attack-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 432
+        height: 752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbec5d479c1313510800000000000000
+      internalID: 1527056489973665467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 74ea99955691bfa4caf52963377782af
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":432.0,"y":752.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Zack Attack-Sheet_1: -3914184185475657724
+      Zack Attack-Sheet_10: 126310302441642699
+      Zack Attack-Sheet_11: 7174578899795564480
+      Zack Attack-Sheet_12: 1527056489973665467
+      Zack Attack-Sheet_7: -7859882173934018680
+      Zack Attack-Sheet_9: -8818264399238451370
+      roommate_angry: -7466007170096491223
+      roommate_confused: -7522472439962975411
+      roommate_happy: 5081708021841955366
+      roommate_neutral: -684433970727111396
+      roommate_sad: 420122849174263791
+      roommate_shocked: 2249594088280494070
+      roommate_thinking: 5625938844620382477
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

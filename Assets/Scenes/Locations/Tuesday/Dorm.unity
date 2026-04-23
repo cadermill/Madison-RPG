@@ -807,7 +807,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3688960522669975468, guid: a45e5537a4429594590615194c765d11, type: 3}
+  m_Sprite: {fileID: -684433970727111396, guid: 5b1928037bd287642ad669a34b5f1026, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -841,8 +841,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -291.09998}
+  m_SizeDelta: {x: 0, y: 582.21}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!1 &380182203
 GameObject:
@@ -984,13 +984,13 @@ MonoBehaviour:
   - {fileID: 380182206}
   character: {fileID: 366866710}
   emotions:
-  - {fileID: 6575065340984630758, guid: a45e5537a4429594590615194c765d11, type: 3}
-  - {fileID: 3328926433021658923, guid: a45e5537a4429594590615194c765d11, type: 3}
-  - {fileID: 2613875942886285050, guid: a45e5537a4429594590615194c765d11, type: 3}
-  - {fileID: -3688960522669975468, guid: a45e5537a4429594590615194c765d11, type: 3}
-  - {fileID: 951504380620403632, guid: a45e5537a4429594590615194c765d11, type: 3}
-  - {fileID: -4593534311867704964, guid: a45e5537a4429594590615194c765d11, type: 3}
-  - {fileID: 8476305874531721277, guid: a45e5537a4429594590615194c765d11, type: 3}
+  - {fileID: -7466007170096491223, guid: 5b1928037bd287642ad669a34b5f1026, type: 3}
+  - {fileID: -7522472439962975411, guid: 5b1928037bd287642ad669a34b5f1026, type: 3}
+  - {fileID: 5081708021841955366, guid: 5b1928037bd287642ad669a34b5f1026, type: 3}
+  - {fileID: -684433970727111396, guid: 5b1928037bd287642ad669a34b5f1026, type: 3}
+  - {fileID: 420122849174263791, guid: 5b1928037bd287642ad669a34b5f1026, type: 3}
+  - {fileID: 2249594088280494070, guid: 5b1928037bd287642ad669a34b5f1026, type: 3}
+  - {fileID: 5625938844620382477, guid: 5b1928037bd287642ad669a34b5f1026, type: 3}
 --- !u!4 &560697591
 Transform:
   m_ObjectHideFlags: 0
@@ -2090,7 +2090,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1006611265}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: LoadSceneByName
         m_Mode: 5

@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: d8243cb7cbdc9404591d926f5b0dfcbb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8784174798491214942
+    second: Ari Sprites Improved-Sheet_0
+  - first:
+      213: -2098265981494251752
+    second: Ari Sprites Improved-Sheet_1
+  - first:
+      213: 5683080518154709024
+    second: Ari Sprites Improved-Sheet_2
+  - first:
+      213: 2268516886609941124
+    second: Ari Sprites Improved-Sheet_3
+  - first:
+      213: -8936573635587947681
+    second: Ari Sprites Improved-Sheet_4
+  - first:
+      213: -8965058616848146143
+    second: Ari Sprites Improved-Sheet_5
+  - first:
+      213: -7077276697150790643
+    second: Ari Sprites Improved-Sheet_6
+  - first:
+      213: -1369833349843802169
+    second: Ari Sprites Improved-Sheet_7
+  - first:
+      213: 3205292955933352410
+    second: Ari Sprites Improved-Sheet_8
+  - first:
+      213: -6112840388006887448
+    second: Ari Sprites Improved-Sheet_9
+  - first:
+      213: 8655149265828156965
+    second: Ari Sprites Improved-Sheet_10
+  - first:
+      213: -5045878707067435044
+    second: Ari Sprites Improved-Sheet_11
+  - first:
+      213: -1475632358831298592
+    second: Ari Sprites Improved-Sheet_12
+  - first:
+      213: -6282205183634758664
+    second: Ari Sprites Improved-Sheet_13
+  - first:
+      213: -740469887546353569
+    second: Ari Sprites Improved-Sheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jo_neutral
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54e10d4078a7e970800000000000000
+      internalID: 8784174798491214942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jo_happy
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1152
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fafb8f43671e2e0800000000000000
+      internalID: -2098265981494251752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jo_thinking
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1152
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028ed8afe9b5ede40800000000000000
+      internalID: 5683080518154709024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ari Sprites Improved-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1152
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4825c59d6146b7f10800000000000000
+      internalID: 2268516886609941124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ari Sprites Improved-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53c8ad50a9eaf380800000000000000
+      internalID: -8936573635587947681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ari Sprites Improved-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 768
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1212638dfa6b59380800000000000000
+      internalID: -8965058616848146143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jo_confused
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 768
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d046d29475678cd90800000000000000
+      internalID: -7077276697150790643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jo_angry
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 768
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7a31573df5dfce0800000000000000
+      internalID: -1369833349843802169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jo_sad
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1287706fc7b7c20800000000000000
+      internalID: 3205292955933352410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jo_shocked
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 384
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef3038ed04da2ba0800000000000000
+      internalID: -6112840388006887448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ari Sprites Improved-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 384
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5269bab76644d1870800000000000000
+      internalID: 8655149265828156965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ari Sprites Improved-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 384
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7c985dc0079f9b0800000000000000
+      internalID: -5045878707067435044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ari Sprites Improved-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7e9c81030858be0800000000000000
+      internalID: -1475632358831298592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ari Sprites Improved-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f325578baf11d8a0800000000000000
+      internalID: -6282205183634758664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ari Sprites Improved-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f581de97f8259b5f0800000000000000
+      internalID: -740469887546353569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: af9508d9d2ed5104fafa4f95a8c832c9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":4.0},"gridSpriteSize":{"x":272.0,"y":384.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Ari Sprites Improved-Sheet_10: 8655149265828156965
+      Ari Sprites Improved-Sheet_11: -5045878707067435044
+      Ari Sprites Improved-Sheet_12: -1475632358831298592
+      Ari Sprites Improved-Sheet_13: -6282205183634758664
+      Ari Sprites Improved-Sheet_14: -740469887546353569
+      Ari Sprites Improved-Sheet_3: 2268516886609941124
+      Ari Sprites Improved-Sheet_4: -8936573635587947681
+      Ari Sprites Improved-Sheet_5: -8965058616848146143
+      jo_angry: -1369833349843802169
+      jo_confused: -7077276697150790643
+      jo_happy: -2098265981494251752
+      jo_neutral: 8784174798491214942
+      jo_sad: 3205292955933352410
+      jo_shocked: -6112840388006887448
+      jo_thinking: 5683080518154709024
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

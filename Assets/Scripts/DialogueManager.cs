@@ -31,18 +31,8 @@ public class DialogueManager : MonoBehaviour
 
     void Awake()
     {
-        Debug.Log("AWAKE");
         DontDestroyOnLoad(gameObject);
         _inkStory = new Story(inkAsset.text);
-
-        //auto-create audio source───────────────
-        if (typingAudioSource == null)
-        {
-            typingAudioSource = gameObject.AddComponent<AudioSource>();
-            typingAudioSource.loop = true;
-            typingAudioSource.playOnAwake = false;
-        }
-        // ────────────────────────────────────────────────────────
 
         EnterDialogue();
     }
@@ -81,11 +71,7 @@ public class DialogueManager : MonoBehaviour
                 }
                 processTags();
             }
-            else
-            {
-                canvas.gameObject.SetActive(false);
-                dialogueText.text = "";
-            }
+            else { ExitDialogue(); }
         }
     }
 
@@ -132,7 +118,8 @@ public class DialogueManager : MonoBehaviour
         for (int i = 0; i < _inkStory.currentTags.Count; ++i)
         {
             string tag = _inkStory.currentTags[i];
-            if (tag.Contains("background")) { canvasManager.changeBackground(tag.Split('_')[1]); }
+            Debug.Log(tag);
+            if (tag.Contains("location")) { canvasManager.changeBackground(tag.Split("location_")[1]); }
             else if (tag.Contains("character")) { canvasManager.displayCharacter(tag.Split("character_")[1]); }
         }
     }
@@ -141,10 +128,14 @@ public class DialogueManager : MonoBehaviour
     {
         _inkStory.ChooseChoiceIndex(idx);
         for (int i = 0; i < choiceButtons.Length; ++i) { choiceButtons[i].gameObject.SetActive(false); }
-        if (_inkStory.canContinue) { _inkStory.Continue(); }
-        string line = _inkStory.Continue();
-        processTags();
-        StartTypewriter(line); //dialogueText.text = _inkStory.Continue();
+        _inkStory.Continue();
+        if (_inkStory.canContinue)
+        {
+            string line = _inkStory.Continue();
+            processTags();
+            StartTypewriter(line); //dialogueText.text = _inkStory.Continue();
+        }
+        else { ExitDialogue();  }
         choicesDisplayed = false;
     }
 
@@ -153,6 +144,19 @@ public class DialogueManager : MonoBehaviour
         canvas.gameObject.SetActive(true);
         _inkStory.ChoosePathString(knot);
         string line = _inkStory.Continue();
+        processTags();
         StartTypewriter(line); //dialogueText.text = _inkStory.Continue();
+    }
+
+    private void ExitDialogue() 
+    {
+        canvas.gameObject.SetActive(false);
+        dialogueText.text = "";
+        if ((int) _inkStory.variablesState["actions_taken"] >= 10) { DayOver(); }
+    }
+
+    private void DayOver() 
+    {
+        EnterDialogue("day_over");
     }
 }
