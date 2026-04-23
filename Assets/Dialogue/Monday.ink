@@ -39,7 +39,7 @@ VAR job_started = false
 
 DAY 1 - MONDAY
 
-#character_roommate_shocked #location_dorm_room
+#character_roommate_shocked
 "Dude, how are you JUST NOW waking up?" 
 #character_roommate_thinking
 "Didn't you say you had that one class in Mosse like... right now?"
@@ -54,14 +54,12 @@ DAY 1 - MONDAY
 
 == object_bucky_poster == 
 
- #location_dorm_room
 Bucky is always watching. 
 
 -> END
 
 == object_bed ==
 
- #location_dorm_room
 I probably shouldn't go back to sleep first thing in the morning...
 
 -> END
@@ -71,14 +69,12 @@ I probably shouldn't go back to sleep first thing in the morning...
 
 == dorm_desk_notebook == 
 
-#location_desk_pov
 It's kinda... unused. I should really start taking notes during lecture.
 
 -> END
 
 == laptop == 
 
-#location_desk_pov
 Let's see what's on Canvas for today... 
     // laptop opens and glows
         * Check Canvas
@@ -108,7 +104,6 @@ Let's see what's on Canvas for today...
         
 == half_empty_iced_latte == 
    
-   #location_desk_pov
     Oops. Guess I left this here from last week. I'll throw it away later. 
     + Take a sip. 
         You grab it and bring it to your mouth. There's a funky smell eminating from it. After taking a swig, your tummy gurgles. It leave a weird taste in your mouth. 
@@ -120,7 +115,6 @@ Let's see what's on Canvas for today...
 
 == protein_bar_wrapper ==
 
-#location_desk_pov
 There's nothing quite like whey protein mixed with sugar alcohols to replace a minimally proceed balanced meal. Convenient! Guess I also forgot to throw this away too. 
 
 -> END
@@ -129,7 +123,7 @@ There's nothing quite like whey protein mixed with sugar alcohols to replace a m
 
 //screen switches to POV of you holding your phone
 
-#location_phone_pov
+#location_phone
 You open up Instagram Reels. Nothing wrong with a little distraction for a couple minutes, right? 
 
 //Screen FLASHES, ears ring for a little bit 
@@ -179,7 +173,7 @@ It's been 2 hours. You've spent them scrolling consuming reels that you don't ev
 
 === Cheese_Club_President ===
 
-#character_cheese_president_happy #location_memorial_union
+#character_cheese_president_happy
 "Hey hey HEY! Over here!"
 
 #character_cheese_president_happy 
@@ -218,7 +212,7 @@ Ahhh... the wonderful sounds of the waves crashing in the lake, the wind blowing
 
 === Jo ===
 
-#character_jo_annoyed #location_memorial_union
+#character_jo_annoyed
 "..."
 
 You hear music blasting from her earbuds. She looks at you confused... and slightly irriated. 
@@ -344,7 +338,7 @@ She's ignoring you now. Why are you such a creep?
 
 === Barista ===
 
-#character_barista_neutral #location_union_south 
+#character_barista_neutral 
 "Hello, what can I get for ya."
 
 + Iced Vanilla Latte
@@ -534,7 +528,6 @@ Taking advantage of this moment, you tear open the wrapping, and begin eating th
 === mosse_first_action ===
 
 //only available if player goes to class first thing in the morning
-#location_mosse
 Alright... I made it!
 
 Except.... wait, where's my class again? Room 2340.....
@@ -547,7 +540,6 @@ Except.... wait, where's my class again? Room 2340.....
 
 === mosse_Monday_class ===
 
-#location_mosse
 Looks like everyone is sitting on the end of each row. You try to squeeze your way to an open spot, which unfortunately involves putting your butt in people's faces.
 
 The professor has already gotten started... you're late.
@@ -649,7 +641,7 @@ You watch as they pick up their supplies from off the ground. You keep laughing.
 
 { friendship_prof >= 0:
 
-#character_prof_neutral #location_mosse
+#character_prof_neutral
 "Hey! What's up?"
 
 
@@ -707,7 +699,7 @@ But I'm glad you thought so. Let me know if you ever have any questions."
 
 They take out their earbud.
 
-#character_classmate_neutral #location_mosse
+#character_classmate_neutral
 "Um, hi."
 
 * What you doing after class?
@@ -772,7 +764,7 @@ I definitely missed class...
 
 === roommate_college_library ===
 
-#character_roommate_neutral #location_college library
+#character_roommate_neutral
 "Oh hey. Wanna study with me? I've got a midterm coming up."
 
 * Sure!
@@ -906,12 +898,11 @@ I should really get back into reading for leisure.
 
 == PC == 
 
-#location_college_library
 Should I do some studying while I'm here? 
 
 + Yes
 
-#location_college PC_pov
+#location_pc
 Let's see what's on Canvas for today... 
     // laptop opens and glows
         * * Check Canvas
@@ -944,7 +935,6 @@ Let's see what's on Canvas for today...
 
 == object_bucky_poster_library == 
 
- #location_college_library
 Bucky is always watching. 
 
 -> END
@@ -963,7 +953,6 @@ They're asleep on the job... must've had the 12AM-6AM shift too...
 //No music, just a hollow wind sound and sporatic sounds of footsteps
 // for now science hall is mainly empty (with the exception of the note in the elevator) and the player can walk around the space, but there is nothing to do, just eerie silence and liminal spaces
 
-#location_science_hall
 "No one's around..."
 
 -> END
@@ -1006,7 +995,7 @@ It seems someone left this here from Fill the Hill...
 
 //BASCOM HILL END
 
-== Monday_Over_Dialogue == 
+== day_over == 
 
 It's getting late... maybe I should head home and rest up now. 
 

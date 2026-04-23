@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3d0f9fca9a6d004eb65e43534d960e3, type: 3}
+  m_Name: MathData
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  questions:
+  - questionText: What is 2^5
+    answers:
+    - 4
+    - 8
+    - 16
+    - 32
+    correctAnswerIndex: 3
+  - questionText: What is the value of 7!
+    answers:
+    - 720
+    - 5040
+    - 1 million
+    - 409676
+    correctAnswerIndex: 1
+  - questionText: 'What is the chemical compound of salt? '
+    answers:
+    - H20
+    - NaCl
+    - O2
+    - CH 3CH 2OH.
+    correctAnswerIndex: 1
+  - questionText: What is the square root of 64?
+    answers:
+    - 8
+    - 7
+    - 6
+    - 5
+    correctAnswerIndex: 0
+  - questionText: "Solve: 18 \xF7 (3 \xD7 2)"
+    answers:
+    - 6
+    - 3
+    - 1
+    - no.
+    correctAnswerIndex: 1

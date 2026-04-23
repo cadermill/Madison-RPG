@@ -6,7 +6,6 @@ public class DialogueProxy : MonoBehaviour
     private void Start()
     {
         DialogueManager dm = FindFirstObjectByType<DialogueManager>();
-        dm.EnterDialogue(SceneManager.GetActiveScene().name);
     }
 
     public void EnterDialogueViaProxy(string knot) 
