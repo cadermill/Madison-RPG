@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 56dcc052418ba54459d76db239958eb7
+guid: f5faf848f5c4fa0429045213e4a248f4
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -127,9 +127,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Science Hall Icon
+  - name: Frat Icon
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5, y: -0.20749278}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -137,9 +137,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 128
-      height: 128
-    spriteID: a44dbd202c72a164a8af68f58afbc2ab
+      width: 347
+      height: 347
+    spriteID: 10ca3f4c59f8f1d44806adfea8445910
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -147,31 +147,31 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 4, y: -43}
   spriteSheetImportData: []
   tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 1198150452
+      value0: 400780840
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: Science Hall Icon
+    name: Frat Icon
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Science Hall Icon
+    - name: Frat Icon
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 128
-        height: 128
-      spriteId: a44dbd202c72a164a8af68f58afbc2ab
+        x: 14
+        y: 25
+        width: 589
+        height: 394
+      spriteId: 10ca3f4c59f8f1d44806adfea8445910
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -181,5 +181,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 128, y: 128}
-  previousTextureSize: {x: 256, y: 256}
+  canvasSize: {x: 375, y: 500}
+  previousTextureSize: {x: 512, y: 512}

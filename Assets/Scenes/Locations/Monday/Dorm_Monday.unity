@@ -1622,6 +1622,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Normal Dialogue_00000
       objectReference: {fileID: 0}
+    - target: {fileID: -2253911629886400664, guid: 3f85a3301e1b6ad48902441377b30562, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: 3f85a3301e1b6ad48902441377b30562, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 3f85a3301e1b6ad48902441377b30562, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.975
@@ -3751,7 +3759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8772016726198238583, guid: 097581188f2d3e84ea1bc7ffc343e008, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9130574415176797019, guid: 097581188f2d3e84ea1bc7ffc343e008, type: 3}
       propertyPath: m_AnchoredPosition.x
