@@ -3,7 +3,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using Ink.Runtime;
 using UnityEngine.SceneManagement;
-using System.Collections; // ← ADDED
+using System.Collections;
+using UnityEngine.Rendering; // ← ADDED
 
 public class DialogueManager : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private Canvas canvas;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField] private Button[] choiceButtons;
-    [SerializeField] private GameObject dialogueContainer; // TEMP
+    [SerializeField] private string day;
 
     // ── Typewriter fields ───────────────────────────────────────────
     [Header("Typewriter Settings")]
@@ -28,6 +29,7 @@ public class DialogueManager : MonoBehaviour
 
     private bool choicesDisplayed = false;
     private CanvasManager canvasManager;
+    private bool dayEnded = false;
     Story _inkStory;
 
     void Awake()
@@ -143,7 +145,6 @@ public class DialogueManager : MonoBehaviour
     public void EnterDialogue(string knot = "start")
     {
         canvas.gameObject.SetActive(true);
-        dialogueContainer.gameObject.SetActive(true); // TEMP
         _inkStory.ChoosePathString(knot);
         string line = _inkStory.Continue();
         processTags();
@@ -153,13 +154,22 @@ public class DialogueManager : MonoBehaviour
     private void ExitDialogue() 
     {
         canvas.gameObject.SetActive(false);
-        dialogueContainer.gameObject.SetActive(false); // TEMP
         dialogueText.text = "";
-        if ((int) _inkStory.variablesState["actions_taken"] >= 10) { DayOver(); }
-    }
 
-    private void DayOver() 
-    {
-        EnterDialogue("day_over");
+        //day_over
+        if ((int) _inkStory.variablesState["actions_taken"] >= 10) 
+        {
+            if (!dayEnded)
+            {
+                EnterDialogue("day_over");
+                dayEnded = true;
+            }
+            else 
+            { 
+                SceneManager.LoadScene("Dorm_End_" + day);
+                Destroy(FindFirstObjectByType<SceneLoader>().gameObject);
+                Destroy(gameObject);
+            }
+        }
     }
 }

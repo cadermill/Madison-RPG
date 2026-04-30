@@ -1,4 +1,4 @@
--> day_start
+-> start
 
 //endings
 VAR ending_perfect_student = 0
@@ -29,7 +29,7 @@ VAR presentation_homework_done = false
 //checks if player has accepted barista job yet
 VAR job_started = false
 
-== day_start ==
+== start ==
 
 //Sound of a phone alarm going off
 
@@ -1187,7 +1187,7 @@ It seems someone left this hear from Fill the Hill...
 
 //BASCOM HILL END
 
-== Tuesday_Over_Dialogue == 
+== day_over == 
 
 It's getting late... maybe I should head home and rest up now. 
 

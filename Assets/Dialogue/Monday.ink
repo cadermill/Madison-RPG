@@ -123,7 +123,7 @@ There's nothing quite like whey protein mixed with sugar alcohols to replace a m
 
 //screen switches to POV of you holding your phone
 
-#location_phone
+//#location_phone
 You open up Instagram Reels. Nothing wrong with a little distraction for a couple minutes, right? 
 
 //Screen FLASHES, ears ring for a little bit 
@@ -902,7 +902,7 @@ Should I do some studying while I'm here?
 
 + Yes
 
-#location_pc
+//#location_pc
 Let's see what's on Canvas for today... 
     // laptop opens and glows
         * * Check Canvas

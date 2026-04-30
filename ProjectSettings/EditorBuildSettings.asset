@@ -35,6 +35,147 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Locations/Monday/Union_South_Monday.unity
     guid: 3c40a8d86fb774841a1b688da0ef28d5
+  - enabled: 1
+    path: Assets/Scenes/Locations/Monday/Dorm_End_Monday.unity
+    guid: 050cb077d60b33843b61cdbfe54f5ea8
+  - enabled: 1
+    path: Assets/Scenes/Locations/Tuesday/Bascom_Hill_Tuesday.unity
+    guid: 1cf131ef4b5c1d14e8bdf46a19e28af3
+  - enabled: 1
+    path: Assets/Scenes/Locations/Tuesday/College_Library_Tuesday.unity
+    guid: 4136500d565af934c8db22f0cc3127d1
+  - enabled: 1
+    path: Assets/Scenes/Locations/Tuesday/Dorm_Tuesday.unity
+    guid: 9d9d9f9ad40786a4b9a8d52b1dc1ad8f
+  - enabled: 1
+    path: Assets/Scenes/Locations/Tuesday/Gordons_Tuesday.unity
+    guid: 431826486202564449b508c8f10d88f0
+  - enabled: 1
+    path: Assets/Scenes/Locations/Tuesday/Library_Mall_Tuesday.unity
+    guid: 372cb054ceb487c4f91cab04d996eeed
+  - enabled: 1
+    path: Assets/Scenes/Locations/Tuesday/Map_Tuesday.unity
+    guid: 2104f528501d4cd4094ea61157e715c1
+  - enabled: 1
+    path: Assets/Scenes/Locations/Tuesday/Memorial_Union_Tuesday.unity
+    guid: 54d118cf7b56e6a488885ad9792e45e7
+  - enabled: 1
+    path: Assets/Scenes/Locations/Tuesday/Mosse_Tuesday.unity
+    guid: 2b139f29d598d614ea529a760159ae66
+  - enabled: 1
+    path: Assets/Scenes/Locations/Tuesday/Science_Hall_Tuesday.unity
+    guid: f5ec9ddafe6efeb4ea4bfdb63e902869
+  - enabled: 1
+    path: Assets/Scenes/Locations/Tuesday/Union_South_Tuesday.unity
+    guid: 6588442b2f6963d498efede0c35a9795
+  - enabled: 1
+    path: Assets/Scenes/Locations/Tuesday/Dorm_End_Tuesday.unity
+    guid: 0744e719f4a8f8544af6375bff34c6b7
+  - enabled: 1
+    path: Assets/Scenes/Locations/Wednesday/Bascom_Hill_Wednesday.unity
+    guid: ab5fa6907f9d32a418b7c592298e6c8b
+  - enabled: 1
+    path: Assets/Scenes/Locations/Wednesday/College_Library_Wednesday.unity
+    guid: 520bfe133849944448996a47eebfdb55
+  - enabled: 1
+    path: Assets/Scenes/Locations/Wednesday/Dorm_Wednesday.unity
+    guid: 21c1d1341fe34ec4799fcdbc2c46be00
+  - enabled: 1
+    path: Assets/Scenes/Locations/Wednesday/Frat_House_Wednesday.unity
+    guid: 63ba256a4f79c30419d50148654ee1bf
+  - enabled: 1
+    path: Assets/Scenes/Locations/Wednesday/Gordons_Wednesday.unity
+    guid: 0de43f0698e6e4f4da96cfecdeef42ee
+  - enabled: 1
+    path: Assets/Scenes/Locations/Wednesday/Map_Wednesday.unity
+    guid: 36340290eebea4e4abf8d716fcc685a2
+  - enabled: 1
+    path: Assets/Scenes/Locations/Wednesday/Memorial_Union_Wednesday.unity
+    guid: 506f88f9e9600a644910af860896f3f4
+  - enabled: 1
+    path: Assets/Scenes/Locations/Wednesday/Mosse_Wednesday.unity
+    guid: df63504ae82b0224c9a1a0db022c411e
+  - enabled: 1
+    path: Assets/Scenes/Locations/Wednesday/Science_Hall_Wednesday.unity
+    guid: 0636283ab8a06e344a141d8901abf4d5
+  - enabled: 1
+    path: Assets/Scenes/Locations/Wednesday/Union_South_Wednesday.unity
+    guid: e04732b600df5a84f85c54049a04c474
+  - enabled: 1
+    path: Assets/Scenes/Locations/Wednesday/Dorm_End_Wednesday.unity
+    guid: e21a3309dd65b4d4eadf78e85d3dab11
+  - enabled: 1
+    path: Assets/Scenes/Locations/Thursday/Bascom_Hill_Thursday.unity
+    guid: e57bf2359336e6245bd58e800d38dae8
+  - enabled: 1
+    path: Assets/Scenes/Locations/Thursday/College_Library_Thursday.unity
+    guid: 898fac6982238c248b08c24bda9e21b8
+  - enabled: 1
+    path: Assets/Scenes/Locations/Thursday/Dorm_End_Thursday.unity
+    guid: d7ba91226edff7f459471da117961d68
+  - enabled: 1
+    path: Assets/Scenes/Locations/Thursday/Dorm_Thursday.unity
+    guid: 1ce6e04080d1c274ba3f7ce0cc826cc2
+  - enabled: 1
+    path: Assets/Scenes/Locations/Thursday/Frat_House_Thursday.unity
+    guid: 918f4cf1f0d33fc419733e3ac9678c52
+  - enabled: 1
+    path: Assets/Scenes/Locations/Thursday/Gordons_Thursday.unity
+    guid: d2e5395c202e45f4f8f53eb1d96f6703
+  - enabled: 1
+    path: Assets/Scenes/Locations/Thursday/Library_Mall_Thursday.unity
+    guid: ff80f56279890fb48a81dc9e775b2fe0
+  - enabled: 1
+    path: Assets/Scenes/Locations/Thursday/Map_Thursday.unity
+    guid: 2a48c1b418ce6744b9d212a5709900fb
+  - enabled: 1
+    path: Assets/Scenes/Locations/Thursday/Memorial_Union_Thursday.unity
+    guid: 3a9c0de7652e9914fbbb5413ff3e416d
+  - enabled: 1
+    path: Assets/Scenes/Locations/Thursday/Mosse_Thursday.unity
+    guid: fa9847162cc47c04c9ee58dafe319688
+  - enabled: 1
+    path: Assets/Scenes/Locations/Thursday/Science_Hall_Thursday.unity
+    guid: 3c73e27e63ce59c459e8a1cf2f230c6f
+  - enabled: 1
+    path: Assets/Scenes/Locations/Thursday/Union_South_Thursday.unity
+    guid: 5968759ebe7e18e4cb5e7cfda140eb6f
+  - enabled: 1
+    path: Assets/Scenes/Locations/Friday/Bascom_Hill_Friday.unity
+    guid: e9ca0ec786b8e6f4e895816b700879a1
+  - enabled: 1
+    path: Assets/Scenes/Locations/Friday/College_Library_Friday.unity
+    guid: ef7342f08164b7243b1117557a6367a1
+  - enabled: 1
+    path: Assets/Scenes/Locations/Friday/Dorm_Friday.unity
+    guid: ab243204741ee1a458ef5adc250fa258
+  - enabled: 1
+    path: Assets/Scenes/Locations/Friday/Frat_House_Friday.unity
+    guid: 70f1b5ec1321843409f6a5810a0d1d55
+  - enabled: 1
+    path: Assets/Scenes/Locations/Friday/Gordons_Friday.unity
+    guid: 5447f7d041bb6bd49b112d2c63815045
+  - enabled: 1
+    path: Assets/Scenes/Locations/Friday/Library_Mall_Friday.unity
+    guid: 7564eb2208844234c9d58ffc69b4bc27
+  - enabled: 1
+    path: Assets/Scenes/Locations/Friday/Map_Friday.unity
+    guid: ef77d57933814d8429dcae429602da91
+  - enabled: 1
+    path: Assets/Scenes/Locations/Friday/Memorial_Union_Friday.unity
+    guid: a83ff7f8bff911b40b2d622f05899284
+  - enabled: 1
+    path: Assets/Scenes/Locations/Friday/Mosse_Friday.unity
+    guid: 099c71d864c67b746a045b8e83ead3ac
+  - enabled: 1
+    path: Assets/Scenes/Locations/Friday/Science_Hall_Friday.unity
+    guid: d33b1bf7117115c458d54787ae8c7535
+  - enabled: 1
+    path: Assets/Scenes/Locations/Friday/Union_South_Friday.unity
+    guid: 14459b727af4a1a49aaee5cd3897b17b
+  - enabled: 1
+    path: Assets/Scenes/Locations/Friday/Dorm_End_Friday.unity
+    guid: 1bc929b42a3d1e946be6c4599b6a7921
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
