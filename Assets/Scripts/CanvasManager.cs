@@ -8,8 +8,15 @@ public class CanvasManager : MonoBehaviour
     [SerializeField] private Image character;
     [SerializeField] private Sprite[] emotions;
 
+    private string currentBackground = "";
+    private string currentCharacter  = "";
+
+    public string GetCurrentBackground() => currentBackground;
+    public string GetCurrentCharacter()  => currentCharacter;
+
     public void changeBackground(string canvasName) 
     {
+        currentBackground = canvasName;
         hideBackgrounds();
         for (int i = 0; i < canvases.Length; i++) 
         {
@@ -27,6 +34,7 @@ public class CanvasManager : MonoBehaviour
 
     public void displayCharacter(string name) 
     {
+        currentCharacter = name;
         for (int i = 0; i < emotions.Length; i++)
         {
             if (emotions[i].name == name) { character.sprite = emotions[i]; }

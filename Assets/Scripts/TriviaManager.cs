@@ -143,6 +143,14 @@ public class TriviaManager : MonoBehaviour
 
         float pct = (float)score / shuffledQuestions.Count * 100f;
         resultText.text = $"{Mathf.RoundToInt(pct)}%\n{score} / {shuffledQuestions.Count}";
+
+        GameSession.lastMinigameScore = score;
+    }
+
+    public void ExitToGame()
+    {
+        string returnTo = GameSession.returnScene;
+        UnityEngine.SceneManagement.SceneManager.LoadScene(string.IsNullOrEmpty(returnTo) ? "Dorm_Monday" : returnTo);
     }
 
     public void PlayAgain()

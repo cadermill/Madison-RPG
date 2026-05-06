@@ -142,11 +142,15 @@ It's been 2 hours. You've spent them scrolling consuming reels that you don't ev
         //screen fades to black
         ~ ending_burnt_out++
         ~ actions_taken = 20
-        Oh snap... the day's over. -> END
-    + + That's enough. -> END
+        Oh snap... the day's over. 
+        #minigame_doomscroll
+        -> END
+    + + That's enough. 
+    #minigame_doomscroll
+    -> END
 
 + Put. The Phone. Down. 
-
+#minigame_doomscroll
 -> END
 
 //end POV desk dialogues
@@ -459,7 +463,7 @@ Whaddya say? Wanna be a barista? Starting salary is pretttty nice!"
 ~ ending_barista++
 ~ actions_taken++
 ~ job_started = true
-
+#minigame_coffee
 -> END
 
 * Of course! I really need a job. 
@@ -479,6 +483,7 @@ Whaddya say? Wanna be a barista? Starting salary is pretttty nice!"
 ~ ending_barista++
 ~ actions_taken++
 ~ job_started = true
+#minigame_coffee
 
 -> END
 
@@ -500,6 +505,7 @@ Whaddya say? Wanna be a barista? Starting salary is pretttty nice!"
 ~ actions_taken++
 ~ job_started = true
 
+#minigame_coffee 
 -> END
 
 
@@ -566,6 +572,7 @@ They give you a smile and go back to scribbling in their notebook.
     "Today we'll be going over basic algebra principles! I know, you've been waiting your whole college career for this exact moment!"
     
     //insert Monday trivia minigame, a higher score leads to another point for perfect student ending?
+    #minigame_trivia_monday
     
     -> END
     
@@ -611,6 +618,7 @@ You watch as they pick up their supplies from off the ground. You keep laughing.
     "Today we'll be going over basic algebra principles! I know, you've been waiting your whole college career for this exact moment!"
     
     //insert Monday trivia minigame, a higher score leads to another point for perfect student ending?
+    #minigame_trivia_monday
      
      -> END
      
@@ -629,6 +637,7 @@ You watch as they pick up their supplies from off the ground. You keep laughing.
     "Today we'll be going over basic algebra principles! I know, you've been waiting your whole college career for this exact moment!"
     
     //insert Monday trivia minigame, a higher score leads to another point for perfect student ending?
+    #minigame_trivia_monday
     
      -> END
 

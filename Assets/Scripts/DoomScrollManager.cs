@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,12 +19,9 @@ public class DoomScrollManager : MonoBehaviour
     public float feedbackDuration = 0.4f;
 
     [Header("Swipe Settings")]
-    public float swipeThreshold = 0.5f;    // in world units
+    public float swipeThreshold = 0.5f;
     public float cardReturnSpeed = 10f;
-    public float cardSwipeOutSpeed = 12f;  // in world units/sec
-
-    [Header("Exit")]
-    public GameObject exitConfirmPanel;
+    public float cardSwipeOutSpeed = 12f;
 
     private int score = 0;
     private NewsArticle currentArticle;
@@ -44,7 +42,6 @@ public class DoomScrollManager : MonoBehaviour
     {
         if (rightFeedback) rightFeedback.gameObject.SetActive(false);
         if (wrongFeedback) wrongFeedback.gameObject.SetActive(false);
-        if (exitConfirmPanel) exitConfirmPanel.SetActive(false);
 
         foreach (var a in allArticles)
             a.gameObject.SetActive(false);
@@ -80,8 +77,6 @@ public class DoomScrollManager : MonoBehaviour
 
         currentArticle = PickRandom();
         currentArticle.gameObject.SetActive(true);
-
-        // Reset to original world position
         currentArticle.transform.position = currentArticle.GetComponent<NewsArticle>().originalPosition;
         articleBasePos = currentArticle.transform.position;
     }
@@ -100,7 +95,6 @@ public class DoomScrollManager : MonoBehaviour
     void Update()
     {
         if (isSwiping) return;
-        if (exitConfirmPanel && exitConfirmPanel.activeSelf) return;
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -137,7 +131,6 @@ public class DoomScrollManager : MonoBehaviour
     {
         isSwiping = true;
 
-        // Fly off 20 world units to the side — enough to leave any screen
         float targetX = articleBasePos.x + (swipedRight ? 20f : -20f);
 
         while (Mathf.Abs(currentArticle.transform.position.x - targetX) > 0.05f)
@@ -200,26 +193,15 @@ public class DoomScrollManager : MonoBehaviour
         if (scoreText) scoreText.text = $"Score: {score}";
     }
 
-    // ── Exit ───────────────────────────────────────────────────────────────
+    // ── Exit — wire this to your exit arrow's OnClick ──────────────────────
 
-    public void OnExitButtonPressed()
+    public void ExitToGame()
     {
-        if (exitConfirmPanel) exitConfirmPanel.SetActive(true);
-    }
+        GameSession.lastMinigameScore = score;
+        GameSession.lastMinigameId = "minigame_doomscroll";
 
-    public void OnConfirmExit()
-    {
-        string target = DoomScrollReturn.previousScene;
-        if (!string.IsNullOrEmpty(target))
-            UnityEngine.SceneManagement.SceneManager.LoadScene(target);
-        else
-            UnityEngine.SceneManagement.SceneManager.LoadScene(
-                UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex - 1);
-    }
-
-    public void OnCancelExit()
-    {
-        if (exitConfirmPanel) exitConfirmPanel.SetActive(false);
+        string returnTo = GameSession.returnScene;
+        SceneManager.LoadScene(string.IsNullOrEmpty(returnTo) ? "MainGameScene" : returnTo);
     }
 
     // ── Util ───────────────────────────────────────────────────────────────
@@ -232,10 +214,4 @@ public class DoomScrollManager : MonoBehaviour
             (list[i], list[j]) = (list[j], list[i]);
         }
     }
-}
-
-/// Stores the scene name to return to after the doomscroll minigame.
-public static class DoomScrollReturn
-{
-    public static string previousScene = "";
 }

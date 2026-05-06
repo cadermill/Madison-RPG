@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -99,6 +100,16 @@ public class GameManager : MonoBehaviour
             if (resultsText)
                 resultsText.text = $"Time's up!\nOrders completed: {score}";
         }
+
+        // ── Write result to GameSession ──────────────────────────────
+        GameSession.lastMinigameScore = score;  // order count, DialogueManager reads this
+    }
+
+    // ── Hook this up to your arrow button's OnClick in the Inspector ──
+    public void ExitToGame()
+    {
+        string returnTo = GameSession.returnScene;
+        SceneManager.LoadScene(string.IsNullOrEmpty(returnTo) ? "Dorm_Monday" : returnTo);
     }
 
     public bool IsGameActive() => gameActive;

@@ -744,8 +744,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: YOU
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8c43e9a68407fe34b9a11d6e54b0a844, type: 2}
-  m_sharedMaterial: {fileID: -8512093984293100564, guid: 8c43e9a68407fe34b9a11d6e54b0a844, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2776,8 +2776,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press space to leave
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8c43e9a68407fe34b9a11d6e54b0a844, type: 2}
-  m_sharedMaterial: {fileID: -8512093984293100564, guid: 8c43e9a68407fe34b9a11d6e54b0a844, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3141,8 +3141,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: WON!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8c43e9a68407fe34b9a11d6e54b0a844, type: 2}
-  m_sharedMaterial: {fileID: -8512093984293100564, guid: 8c43e9a68407fe34b9a11d6e54b0a844, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3582,15 +3582,15 @@ PrefabInstance:
       objectReference: {fileID: -6734940277011434989, guid: 66c6018628d12e14794dbbdd31152f2b, type: 3}
     - target: {fileID: 3479861632448303102, guid: 87336a9bd44d43d46b2bd43ca514a567, type: 3}
       propertyPath: m_Color.b
-      value: 0.7039871
+      value: 0.509434
       objectReference: {fileID: 0}
     - target: {fileID: 3479861632448303102, guid: 87336a9bd44d43d46b2bd43ca514a567, type: 3}
       propertyPath: m_Color.g
-      value: 0.7039871
+      value: 0.509434
       objectReference: {fileID: 0}
     - target: {fileID: 3479861632448303102, guid: 87336a9bd44d43d46b2bd43ca514a567, type: 3}
       propertyPath: m_Color.r
-      value: 0.7106918
+      value: 0.509434
       objectReference: {fileID: 0}
     - target: {fileID: 4760473559250998756, guid: 87336a9bd44d43d46b2bd43ca514a567, type: 3}
       propertyPath: m_Name
