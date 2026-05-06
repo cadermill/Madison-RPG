@@ -49,7 +49,7 @@ public class BallRespawn : MonoBehaviour
     void Respawn()
     {
         transform.position = startPosition;
-        rb.velocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         rb.angularVelocity = 0f;
     }
 }
