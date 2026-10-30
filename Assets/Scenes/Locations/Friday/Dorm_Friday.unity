@@ -1102,10 +1102,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1280,7 +1280,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5921634643363222045, guid: 097581188f2d3e84ea1bc7ffc343e008, type: 3}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
         m_MethodName: EnterDialogue
         m_Mode: 5
@@ -1620,7 +1620,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5921634643363222045, guid: 097581188f2d3e84ea1bc7ffc343e008, type: 3}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
         m_MethodName: EnterDialogue
         m_Mode: 5
@@ -1827,7 +1827,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5921634643363222045, guid: 097581188f2d3e84ea1bc7ffc343e008, type: 3}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
         m_MethodName: EnterDialogue
         m_Mode: 5
@@ -1959,7 +1959,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 560697590}
         m_TargetAssemblyTypeName: CanvasManager, Assembly-CSharp
         m_MethodName: hideBackgrounds
         m_Mode: 1
@@ -2310,7 +2310,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5921634643363222045, guid: 097581188f2d3e84ea1bc7ffc343e008, type: 3}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
         m_MethodName: EnterDialogue
         m_Mode: 5
@@ -3290,7 +3290,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5921634643363222045, guid: 097581188f2d3e84ea1bc7ffc343e008, type: 3}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
         m_MethodName: EnterDialogue
         m_Mode: 5
@@ -3463,10 +3463,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
